@@ -1,11 +1,16 @@
 # UCI-HAR SLP Quantization and Memristor Verilog Framework
 This is the repository for executing the memristor model in verilog using HAR dataset after taking the weights of the trained SLP model. there 561 feature from which 94 important feature are taken which has 6 class namely  
-WALKING as 0
-WALKING_UPSTAIRS as 1
-WALKING_DOWNSTAIRS as 2
-SITTING as 3
-STANDING as 4
-LAYING as 5
+WALKING  0
+
+WALKING_UPSTAIRS  1
+
+WALKING_DOWNSTAIRS  2
+
+SITTING  3
+
+STANDING  4
+
+LAYING  5
 
 
 In this program i have used human activity recognition(HAR) dataset, in previously i have used same dataset to find the important feature from the same dataset where i have used SHAP XAI technique where i have by increased and decred the feature and got different accuracy so have used 95 feature where accuracy is near to by using all 561 feature. I have used this reference paper "An FPGA-based memristor emulator for artificial neural network" where they used a MNIST dataset, 
