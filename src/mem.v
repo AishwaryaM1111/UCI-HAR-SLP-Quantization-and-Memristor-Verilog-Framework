@@ -68,12 +68,11 @@ module mem #(
       end else begin
         next_G_temp = G;
       end
-      G <= next_G_temp;
+      
       I <= Vin * next_G_temp;
     end
-    else begin
-      I <= I;  // ← HOLD OUTPUT, DON'T LET X PROPAGATE
-    end
+    //else begin
+      //I <= I;  // ← HOLD OUTPUT, DON'T LET X PROPAGATE
+    //end
   end
 endmodule
-
