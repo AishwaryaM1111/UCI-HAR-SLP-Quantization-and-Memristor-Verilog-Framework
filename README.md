@@ -1,5 +1,5 @@
 # UCI-HAR SLP Quantization and Memristor Verilog Framework
-this is the repository for executing the memristor model in verilog using HAR dataset after taking the weights of the trained SLP model. there 561 feature from which 94 important feature are taken which has 6 class namely  
+This is the repository for executing the memristor model in verilog using HAR dataset after taking the weights of the trained SLP model. there 561 feature from which 94 important feature are taken which has 6 class namely  
 WALKING as 0
 WALKING_UPSTAIRS as 1
 WALKING_DOWNSTAIRS as 2
